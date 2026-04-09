@@ -3,150 +3,138 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Gemma 4 AI</title>
-  <meta name="description" content="Gemma 4 AI - Open-source AI playground with upcoming image and video generation tools." />
-  <style>
-    * {
-      box-sizing: border-box;
-    }
 
+  <title>Gemma 4 AI - AI Image Generator & Video Generator Platform</title>
+
+  <!-- SEO -->
+  <meta name="description" content="Gemma 4 AI is an open-source AI platform with AI image generator, AI video generator, and AI playground. Run AI models online or locally.">
+  <meta name="keywords" content="AI image generator, AI video generator, free AI tools, open source AI, AI playground, local AI models, multimodal AI">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Gemma 4 AI" />
+  <meta property="og:description" content="AI playground with image and video generation tools." />
+  <meta property="og:url" content="https://gemma4.site" />
+
+  <style>
     body {
       margin: 0;
-      font-family: Arial, Helvetica, sans-serif;
-      background: linear-gradient(135deg, #eef6ff 0%, #f9fbff 100%);
-      color: #111827;
-      min-height: 100vh;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      padding: 24px;
+      font-family: Arial, sans-serif;
+      background: #f7f9fc;
+      color: #111;
     }
 
-    .card {
-      width: 100%;
-      max-width: 860px;
-      background: #ffffff;
-      border-radius: 24px;
-      padding: 56px 40px;
-      box-shadow: 0 20px 60px rgba(0, 0, 0, 0.08);
-      text-align: center;
-      border: 1px solid #dbeafe;
-    }
-
-    .badge {
-      display: inline-block;
-      padding: 8px 14px;
-      border-radius: 999px;
-      background: #eff6ff;
-      color: #2563eb;
-      font-size: 13px;
-      font-weight: 700;
-      letter-spacing: 0.08em;
-      text-transform: uppercase;
-      margin-bottom: 18px;
+    .wrap {
+      max-width: 1100px;
+      margin: auto;
+      padding: 60px 20px;
     }
 
     h1 {
-      margin: 0 0 16px;
-      font-size: 56px;
-      line-height: 1.05;
+      font-size: 54px;
+      margin-bottom: 10px;
+    }
+
+    h2 {
+      margin-top: 60px;
+      font-size: 30px;
     }
 
     p {
-      margin: 0 auto 18px;
-      max-width: 680px;
-      font-size: 20px;
+      font-size: 18px;
+      color: #444;
       line-height: 1.7;
-      color: #4b5563;
     }
 
-    .features {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 12px;
-      justify-content: center;
-      margin: 28px 0 40px;
-    }
-
-    .tag {
-      padding: 10px 16px;
-      border-radius: 999px;
-      background: #f8fafc;
-      border: 1px solid #dbeafe;
-      color: #1f2937;
-      font-size: 15px;
-      font-weight: 600;
-    }
-
-    .cta {
+    .btn {
       display: inline-block;
-      padding: 22px 42px;
-      font-size: 24px;
-      font-weight: 800;
-      color: #ffffff;
+      margin: 30px 0;
+      padding: 20px 40px;
+      font-size: 22px;
+      font-weight: bold;
+      background: #2563eb;
+      color: #fff;
+      border-radius: 12px;
       text-decoration: none;
-      border-radius: 18px;
-      background: linear-gradient(90deg, #3b82f6 0%, #2563eb 100%);
-      box-shadow: 0 16px 32px rgba(37, 99, 235, 0.28);
-      transition: transform 0.2s ease, box-shadow 0.2s ease;
     }
 
-    .cta:hover {
-      transform: translateY(-2px);
-      box-shadow: 0 20px 36px rgba(37, 99, 235, 0.34);
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+      gap: 20px;
+      margin-top: 30px;
     }
 
-    .footer {
-      margin-top: 26px;
-      font-size: 14px;
-      color: #6b7280;
-    }
-
-    @media (max-width: 640px) {
-      .card {
-        padding: 40px 24px;
-      }
-
-      h1 {
-        font-size: 38px;
-      }
-
-      p {
-        font-size: 17px;
-      }
-
-      .cta {
-        width: 100%;
-        font-size: 22px;
-        padding: 20px 24px;
-      }
+    .card {
+      background: #fff;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.05);
     }
   </style>
 </head>
+
 <body>
-  <main class="card">
-    <div class="badge">Open-source AI Platform</div>
-    <h1>Gemma 4 AI</h1>
-    <p>
-      Run AI models online, explore developer workflows, and discover upcoming
-      AI image and video generation tools in one platform.
-    </p>
+<div class="wrap">
 
-    <div class="features">
-      <span class="tag">AI Playground</span>
-      <span class="tag">Image Generation</span>
-      <span class="tag">Video Generation</span>
-      <span class="tag">Free + Paid</span>
-      <span class="tag">Developer Friendly</span>
-    </div>
+<h1>Gemma 4 AI Platform</h1>
 
-    <a class="cta" href="https://gemma4.site" target="_blank" rel="noopener noreferrer">
-      Visit Gemma4.site
-    </a>
+<p>
+Gemma 4 AI is an open-source AI platform that combines AI playground, AI image generator, AI video generator, and local AI models into one unified system for developers and creators.
+</p>
 
-    <div class="footer">
-      Contact: connect@gemma4.site
-    </div>
-  </main>
+<a class="btn" href="https://gemma4.site" target="_blank">
+🚀 Try Gemma 4 Online
+</a>
+
+<!-- 🔥 FREE 关键词（核心流量） -->
+<h2>Free AI Image Generator & Video Generator</h2>
+<p>
+Try free AI image generator and AI video generator online. No installation required. Generate high-quality images and videos instantly using advanced AI models.
+</p>
+
+<h2>AI Model Selection</h2>
+<p>
+Choose from multiple models like E2B, E4B, 26B, and 31B based on your device and performance needs. From lightweight edge AI to research-grade models.
+</p>
+
+<div class="grid">
+  <div class="card"><h3>Gemma 4 E2B</h3><p>Lightweight model for mobile and edge AI. Runs fully offline.</p></div>
+  <div class="card"><h3>Gemma 4 E4B</h3><p>Best balance of performance and usability. Recommended model.</p></div>
+  <div class="card"><h3>Gemma 4 26B</h3><p>High throughput model for scalable AI applications.</p></div>
+  <div class="card"><h3>Gemma 4 31B</h3><p>Most powerful model for advanced reasoning and research.</p></div>
+</div>
+
+<h2>What You Can Build with Gemma 4</h2>
+
+<div class="grid">
+  <div class="card"><h3>Developer Tools</h3><p>AI coding assistants, code generation, CI/CD workflows, and automation.</p></div>
+  <div class="card"><h3>Enterprise AI</h3><p>Document analysis, customer support automation, and structured workflows.</p></div>
+  <div class="card"><h3>Research & Science</h3><p>Literature analysis, reasoning tasks, and scientific discovery.</p></div>
+  <div class="card"><h3>Mobile & Edge AI</h3><p>Run AI locally with low latency and offline capabilities.</p></div>
+  <div class="card"><h3>Multilingual AI</h3><p>Support for 140+ languages and localization-aware AI systems.</p></div>
+  <div class="card"><h3>Autonomous Agents</h3><p>Build AI agents that reason, call tools, and execute workflows.</p></div>
+</div>
+
+<h2>AI Image & Video Generation</h2>
+<p>
+Gemma 4 AI provides advanced AI image generator and AI video generator tools for creators, marketers, and developers. Turn prompts into visual content instantly.
+</p>
+
+<h2>Why Gemma 4 AI</h2>
+<p>
+Open-source AI, local-first deployment, multimodal capabilities, and developer-friendly tools — all in one platform.
+</p>
+
+<h2>Keywords</h2>
+<p>
+AI image generator, AI video generator, free AI tools, open source AI, AI playground, local AI models, multimodal AI, generative AI platform
+</p>
+
+<p style="margin-top:40px; font-size:14px; color:#777;">
+Website: https://gemma4.site<br>
+Contact: connect@gemma4.site
+</p>
+
+</div>
 </body>
 </html>
